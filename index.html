@@ -9,30 +9,45 @@
       margin: 0;
       font-family: Arial, sans-serif;
       background: #f4f7fb;
+      text-align: center;
     }
 
     header {
       background: #0b3c5d;
       color: white;
-      padding: 18px;
-      text-align: center;
+      padding: 20px;
     }
 
     header h1 {
       margin: 0;
-      font-size: 22px;
+      font-size: 24px;
     }
 
     header p {
-      margin: 4px 0 0;
+      margin: 6px 0 0;
       font-size: 14px;
       opacity: 0.9;
     }
 
-    iframe {
-      width: 100%;
-      height: calc(100vh - 90px);
+    .container {
+      margin-top: 60px;
+    }
+
+    .btn {
+      background: #0b3c5d;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
       border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .note {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #444;
     }
   </style>
 </head>
@@ -43,9 +58,17 @@
   <p>Non-Major Elective Subject Registration</p>
 </header>
 
-<iframe 
-  src="https://script.google.com/macros/s/AKfycbzez0DkIJAt2o7sXyVDCYPX_abN-6lZewxC73V-4WMNxM3lzBALY95pOuUgTV1fWjLk/exec">
-</iframe>
+<div class="container">
+  <a class="btn"
+     href="https://script.google.com/macros/s/AKfycbzez0DkIJAt2o7sXyVDCYPX_abN-6lZewxC73V-4WMNxM3lzBALY95pOuUgTV1fWjLk/exec"
+     target="_blank">
+     Register Now
+  </a>
+
+  <div class="note">
+    * Please login using your Gmail account for first-time access
+  </div>
+</div>
 
 </body>
 </html>
